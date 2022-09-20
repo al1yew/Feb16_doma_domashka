@@ -26,7 +26,7 @@ namespace Feb16_doma_domashka
             {
                 for (int m=+i; m < arr.Length; m++)
                 {
-                    if (arr[i] > arr[m])                // nado ne zabit pro int b
+                    if (arr[i] > arr[m])                 // nado ne zabit pro int b
                     {
                         b = arr[i];
                         arr[i] = arr[m];
